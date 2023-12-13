@@ -1,0 +1,52 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.card{
+  width: 150px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  display:inline-block
+}
+.profile-pictures{
+  /* display: inline; */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-buttom: 10px;
+  
+}
+.name{
+  /* font-family: Arial; */
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.friends{
+  /* font-family: Arial; */
+  /* font-size: 4px; */
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  /* padding-right: 8px; */
+  margin-bottom: 12px;
+}
+
+.button{
+  /* font-family: Arial; */
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+}

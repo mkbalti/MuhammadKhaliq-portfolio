@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Flex box Practices</title>
+  </head>
+  <style>
+    .flexbox-practice {
+     display: flex;
+     flex-direction: row;
+    }
+    .lightblue {
+      
+      background-color: lightblue;
+    }
+    .lightpink {
+      background-color: lightpink;
+    }
+    .item1{
+      width: 200px;
+    }
+    .item2{
+      width: 75px;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+    }
+    .itm1 {
+      width: 50px;
+    }
+    .itm2 {
+      flex: 1;
+    }
+    .itm3 {
+      width: 75px;
+    }
+    .flexbox-page {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .flexbox-border {
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-width: 1px;
+      border-style: solid;
+      align-items: center;
+      border-color: gray;
+    }
+  </style>
+  <body>
+    <div class="flexbox-practice">
+      <div class="lightblue item1">200px</div>
+      <div class="lightpink item2">75px</div>
+    </div>
+
+    <div class="flexbox">
+      <div class="lightblue itm1">item1</div>
+      <div class="lightpink itm2">item2</div>
+      <div class="lightblue itm3">item3</div>
+    </div>
+
+
+    <div class="flexbox-page">
+      <div class="lightblue tm1">item1</div>
+      <div class="lightblue tm2">item2</div>
+      <div class="lightblue tm3">item3</div>
+      <div class="lightblue tm4">item4</div>
+    </div>
+
+    <div class="flexbox-border">
+      <div class="lightblue">item1</div>
+      <div class="lightblue">item2</div>
+    </div>
+
+  </body>
+</html>

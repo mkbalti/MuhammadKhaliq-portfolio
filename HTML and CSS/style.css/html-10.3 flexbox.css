@@ -1,0 +1,40 @@
+div{
+  font-family: Arial;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.home-add {
+  font-weight: bold;
+}
+.input-box{
+  width:500px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 30px;
+  padding-left: 20px;
+}
+button{
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+}

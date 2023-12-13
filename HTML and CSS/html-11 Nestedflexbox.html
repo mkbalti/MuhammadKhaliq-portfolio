@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>
+      Nested flexbox
+    </title>
+    <style>
+      .nest{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+
+      }
+      
+      .col1{
+        background:lightpink;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .it1{
+        background-color: black;
+        color: white;
+      }
+      .it2{
+        width: 200px;
+        background-color: lightblue;
+        width: 200px;
+      }
+    
+    </style>
+  </head>
+  <div class="nest">
+    <div class="col1">
+      <div class="it1">item1</div>
+    </div>
+    <div class="it2"></div>
+  </div>
+
+</html>

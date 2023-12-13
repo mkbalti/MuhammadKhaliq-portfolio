@@ -1,0 +1,14 @@
+p{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.Model{
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.line{
+  text-decoration: underline;
+}

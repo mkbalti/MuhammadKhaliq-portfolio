@@ -1,0 +1,21 @@
+p{
+  font-family: Arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.org{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.camp{
+  color: grey;
+  font-weight: normal;
+}
+.projects{
+  width: 550px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.colr{
+  color: rgb(94, 94, 236);
+}

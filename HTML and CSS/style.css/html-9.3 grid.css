@@ -1,0 +1,72 @@
+p {
+  font:Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  
+
+}
+.profile {
+  width:200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  /* display: inline-block; */
+  vertical-align: top; 
+   margin-right:15px
+
+} 
+.profile-pics {
+  width: 200px;
+  height: 200px;
+  /* border: none;
+   */
+  object-fit: cover;
+  margin-bottom: 12px;
+
+}
+.title-name{
+  /* font-family: Arial; */
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 8px;
+  margin-bottom: 6px;
+  /* margin-top: 10px; */
+}
+.title-row{
+  margin-left:8px ;
+  margin-bottom:10px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+}
+.title-mutual-pics{
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 15px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.title-friend {
+color: rgb(100, 100, 100);
+
+}
+.button-pics {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(24, 119, 242);;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+cursor: pointer;
+
+}

@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Css Grid</title>
+  </head>
+  <style>
+    .grid-size{
+    display:grid;
+    grid-template-columns: 200px 75px;
+    }
+    .first{
+      background-color: aqua;
+    }
+    .second{
+      background-color: pink;
+    }
+
+    .grid-col{
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+    .lightblue{
+      background-color: lightblue;
+    }
+    .lightpink{
+      background-color: lightpink;
+    }
+
+  </style>
+
+  <body>
+    <div class="grid-size">
+      <div class="first">200px</div>
+      <div class="second">75px</div>
+    </div>
+
+    <div class="grid-col">
+      <div class="lightblue">col1</div>
+      <div class="lightpink">col2</div>
+      <div class="lightblue">col3</div>
+    </div>
+    
+  </body>
+</html>

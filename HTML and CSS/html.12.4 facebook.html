@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>
+      Facebook stick
+    </title>
+  </head>
+  <style>
+    body{
+      height: 3000px;
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+
+    }
+    .left-section{
+      display: flex;
+      align-items: center;
+    }
+    .profile-title{
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+    .profile-name{
+      font-weight: bold;
+      font-family: Arial;
+    }
+    .add-button{
+      background-color: rgb(24, 119, 242);
+      color: white;
+      border: none;
+      font-weight: bold;
+      padding: 8px 12px 8px 12px;
+      border-radius: 6px;
+      margin-right: 3px;
+    }
+    .msg-button{
+      background-color: rgb(230, 230, 230);
+      color: white;
+      border: none;
+      font-weight: bold;
+      padding: 8px 12px 8px 12px;
+      border-radius: 6px;
+      margin-right: 3px;
+    }
+    
+  </style>
+
+  <body>
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+    <p id="demo">This is a demonstration.</p>
+  <div class="header">
+      <div class="left-section">
+          <img class="profile-title" src="tumbnail/cat.jpg" alt="cat">
+          <div class="profile-name">Oliver Cat</div>
+      </div>
+      <div class="right-section">
+            <button class="add-button">Add Friend</button>
+            <button class="msg-button">Message</button>
+      </div>
+  </div>
+  <script>
+   function myFunction() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+  </script>
+  </body>
+</html>

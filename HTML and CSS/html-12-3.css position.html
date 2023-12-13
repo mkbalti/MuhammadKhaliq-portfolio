@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>model</title>
+  </head>
+  <style>
+    body{
+      height: 3000px;
+
+    }
+   
+    .sidebr{
+      position:fixed;
+      color: white;
+      background-color: greenyellow;
+      top: 0;
+      bottom: 0;
+      right:0;
+      width: 100px;
+      
+    }
+    .overlay{
+      background-color: rgba(0,0,0,0.5);
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .model{
+      background-color: whitesmoke;
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      border-radius: 5px;
+    }
+    .model-title{
+      font-size: 25px;
+      font-family: Arial;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    .model-content{
+      font-family: Arial;
+      margin-bottom: 12px;
+
+    }
+  </style>
+  <body>
+    <div class="sidebr">
+      right sidebar
+    </div>
+    
+   <div class="overlay">
+    <div class="model">
+      <div class="model-title">
+        MODEL Title
+      </div>
+      <div class="model-content">MODEL Content
+
+      </div>
+      <button>
+        Close
+      </button>
+
+    </div>
+
+   </div>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.price{
+  font-size: 14px;
+  /* color:black; */
+  /* font-weight: bold; */
+  margin-bottom: 4px;
+}
+.currency{
+  color: grey;
+  font-size: 8px;
+}
+.increase{
+  color: rgb(76, 206, 76);
+  font-size: 7px;
+  margin-bottom: 8px;
+}
+.Decrease{
+  color: grey;
+  font-size: 8px;
+}
+.rate{
+  color: red;
+}

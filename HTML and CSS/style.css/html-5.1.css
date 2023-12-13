@@ -1,0 +1,16 @@
+.catie{
+  width: 200px;
+  border-radius:300px;
+  border: 230px;
+  border-top: 20px;
+  border-bottom: 25px;
+  border-color: black;
+  
+}
+.cutie{
+  width: 200px;
+  height: 200px;
+  border-radius: 230px;
+  object-fit: cover;
+  object-position: center;
+}

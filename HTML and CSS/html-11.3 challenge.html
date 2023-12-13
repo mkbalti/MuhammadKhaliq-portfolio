@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>
+      Twitter Challenge
+    </title>
+  </head>
+  <style>
+div{
+  font-family: Arial, 'Times New Roman';
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.profile{
+  margin-right: 10px;
+}
+.profile-photo{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.tweet-col{
+  flex:1;
+}
+.tweet-header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.tweet-author{
+  font-weight: bold;
+  margin-right: 5px;
+}
+.tweet-author-handle{
+  color: rgb(111, 111, 111);
+}
+.content{
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.video-preview{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color:rgb( 200,200,200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.tumbnail{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220,220,220);
+  margin-right: 10px;
+}
+.vido-info{
+  flex: 1;
+}
+.video-website{
+  color: rgb(111,111,111);
+  margin-bottom: 3px;
+}
+.video-title{
+  line-height:22px;
+}
+
+
+
+
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img class="profile-photo" src="tumbnail/balti.JPG" alt="cat">
+      </div>
+      <div class="tweet-col">
+        <div class="tweet-header">
+          <div class="tweet-author">Supersimple.dev</div>
+          <div class="tweet-author-handle">@Supersimple.dev</div>
+        </div>
+        <div class="content">
+            what is backend web development? A complete overview, New video is up!
+        </div> 
+            <div class="video-preview">
+                <div class="tumbnail"></div>
+                <div class="video-info">
+                  <div class="video-website">Google.com</div>
+                  <div class="video-title">Backened Web development - a complete overview(2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
